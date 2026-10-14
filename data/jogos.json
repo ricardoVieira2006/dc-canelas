@@ -1,0 +1,157 @@
+{
+  "epoca": "2026/27",
+  "competicoes": {
+    "div1": "1.ª Divisão AF Porto · Série 2",
+    "jun": "Juniores A (Sub-19) · AF Porto",
+    "taca": "Taça AF Porto"
+  },
+  "localCasa": "Campo do Desportivo de Canelas",
+  "jogos": [
+    {
+      "id": "s01",
+      "escalao": "Seniores",
+      "competicao": "div1",
+      "jornada": 1,
+      "data": "2026-09-20T15:00",
+      "casa": "eja",
+      "fora": "canelas",
+      "golosCasa": 1,
+      "golosFora": 2
+    },
+    {
+      "id": "j01",
+      "escalao": "Juniores A (Sub-19)",
+      "competicao": "jun",
+      "jornada": 2,
+      "data": "2026-09-26T17:00",
+      "casa": "canelas",
+      "fora": "eja",
+      "golosCasa": 2,
+      "golosFora": 1
+    },
+    {
+      "id": "s02",
+      "escalao": "Seniores",
+      "competicao": "div1",
+      "jornada": 2,
+      "data": "2026-09-27T15:00",
+      "casa": "canelas",
+      "fora": "croca",
+      "golosCasa": 3,
+      "golosFora": 0
+    },
+    {
+      "id": "j02",
+      "escalao": "Juniores A (Sub-19)",
+      "competicao": "jun",
+      "jornada": 3,
+      "data": "2026-10-03T17:00",
+      "casa": "penhalonga",
+      "fora": "canelas",
+      "golosCasa": 0,
+      "golosFora": 0
+    },
+    {
+      "id": "s03",
+      "escalao": "Seniores",
+      "competicao": "div1",
+      "jornada": 3,
+      "data": "2026-10-04T15:00",
+      "casa": "ancede",
+      "fora": "canelas",
+      "golosCasa": 1,
+      "golosFora": 1
+    },
+    {
+      "id": "j03",
+      "escalao": "Juniores A (Sub-19)",
+      "competicao": "jun",
+      "jornada": 4,
+      "data": "2026-10-10T17:00",
+      "casa": "canelas",
+      "fora": "gaiolo",
+      "golosCasa": null,
+      "golosFora": null
+    },
+    {
+      "id": "s04",
+      "escalao": "Seniores",
+      "competicao": "div1",
+      "jornada": 4,
+      "data": "2026-10-11T15:00",
+      "casa": "canelas",
+      "fora": "riomau",
+      "golosCasa": null,
+      "golosFora": null,
+      "bilhetes": true
+    },
+    {
+      "id": "j04",
+      "escalao": "Juniores A (Sub-19)",
+      "competicao": "jun",
+      "jornada": 5,
+      "data": "2026-10-17T17:00",
+      "casa": "croca",
+      "fora": "canelas",
+      "golosCasa": null,
+      "golosFora": null
+    },
+    {
+      "id": "s05",
+      "escalao": "Seniores",
+      "competicao": "div1",
+      "jornada": 5,
+      "data": "2026-10-18T15:00",
+      "casa": "gestaco",
+      "fora": "canelas",
+      "golosCasa": null,
+      "golosFora": null
+    },
+    {
+      "id": "s06",
+      "escalao": "Seniores",
+      "competicao": "div1",
+      "jornada": 6,
+      "data": "2026-10-25T15:00",
+      "casa": "canelas",
+      "fora": "lagares",
+      "golosCasa": null,
+      "golosFora": null,
+      "bilhetes": true
+    },
+    {
+      "id": "s07",
+      "escalao": "Seniores",
+      "competicao": "div1",
+      "jornada": 7,
+      "data": "2026-11-01T15:00",
+      "casa": "frende",
+      "fora": "canelas",
+      "golosCasa": null,
+      "golosFora": null
+    },
+    {
+      "id": "s08",
+      "escalao": "Seniores",
+      "competicao": "div1",
+      "jornada": 8,
+      "data": "2026-11-08T15:00",
+      "casa": "canelas",
+      "fora": "pacosousa",
+      "golosCasa": null,
+      "golosFora": null,
+      "bilhetes": true
+    },
+    {
+      "id": "s09",
+      "escalao": "Seniores",
+      "competicao": "div1",
+      "jornada": 9,
+      "data": "2026-11-15T15:00",
+      "casa": "abragonense",
+      "fora": "canelas",
+      "golosCasa": null,
+      "golosFora": null
+    }
+  ]
+}

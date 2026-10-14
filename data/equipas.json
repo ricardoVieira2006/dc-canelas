@@ -1,0 +1,73 @@
+{
+  "canelas": {
+    "nome": "Desportivo de Canelas FC",
+    "curto": "Canelas",
+    "sigla": "DCF",
+    "emblema": "img/emblema-badge.png"
+  },
+  "vilaboa": {
+    "nome": "FC Vila Boa de Quires",
+    "curto": "Vila Boa de Quires",
+    "sigla": "VBQ"
+  },
+  "tuias": {
+    "nome": "AR Tuías",
+    "curto": "Tuías",
+    "sigla": "TUI"
+  },
+  "penhalonga": {
+    "nome": "GD Penha Longa",
+    "curto": "Penha Longa",
+    "sigla": "GPL"
+  },
+  "frende": {
+    "nome": "FC Frende",
+    "curto": "Frende",
+    "sigla": "FRE"
+  },
+  "gaiolo": {
+    "nome": "FC Paços de Gaiolo",
+    "curto": "Paços de Gaiolo",
+    "sigla": "PGA"
+  },
+  "abragonense": {
+    "nome": "Abragonense",
+    "curto": "Abragonense",
+    "sigla": "ABR"
+  },
+  "croca": {
+    "nome": "Croca",
+    "curto": "Croca",
+    "sigla": "CRO"
+  },
+  "pacosousa": {
+    "nome": "Paço de Sousa",
+    "curto": "Paço de Sousa",
+    "sigla": "PSO"
+  },
+  "eja": {
+    "nome": "Eja",
+    "curto": "Eja",
+    "sigla": "EJA"
+  },
+  "riomau": {
+    "nome": "Rio Mau",
+    "curto": "Rio Mau",
+    "sigla": "RMA"
+  },
+  "ancede": {
+    "nome": "Ancede",
+    "curto": "Ancede",
+    "sigla": "ANC"
+  },
+  "lagares": {
+    "nome": "SC Lagares",
+    "curto": "Lagares",
+    "sigla": "LAG"
+  },
+  "gestaco": {
+    "nome": "Gestaçô",
+    "curto": "Gestaçô",
+    "sigla": "GES"
+  }
+}

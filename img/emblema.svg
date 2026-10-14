@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 230" role="img" aria-label="Emblema provisório do Desportivo de Canelas FC">
+<defs><clipPath id="s"><path d="M100 8 L188 34 V112 C188 166 150 204 100 222 C50 204 12 166 12 112 V34 Z"/></clipPath></defs>
+<path d="M100 8 L188 34 V112 C188 166 150 204 100 222 C50 204 12 166 12 112 V34 Z" fill="#1f9d55"/>
+<g clip-path="url(#s)"><path d="M-20 150 L220 30 V70 L-20 190Z" fill="#ffd21f"/><path d="M-20 196 L220 76 V92 L-20 212Z" fill="#ffd21f" opacity=".9"/></g>
+<path d="M100 8 L188 34 V112 C188 166 150 204 100 222 C50 204 12 166 12 112 V34 Z" fill="none" stroke="#ffd21f" stroke-width="7"/>
+<path d="M100 20 L176 42 V110 C176 158 143 191 100 207 C57 191 24 158 24 110 V42 Z" fill="none" stroke="#062014" stroke-width="2" opacity=".35"/>
+<text x="100" y="78" text-anchor="middle" font-family="Barlow Condensed,Arial Narrow,Arial" font-weight="800" font-size="46" fill="#fff" letter-spacing="2">DCFC</text>
+<circle cx="100" cy="140" r="27" fill="#fff" stroke="#062014" stroke-width="3"/>
+<path d="M100 124 l13 9 -5 15 h-16 l-5-15z" fill="#062014"/><path d="M100 124v-11M113 133l11-4M108 148l7 9M92 148l-7 9M87 133l-11-4" stroke="#062014" stroke-width="3"/>
+</svg>

@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="pt-PT">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Desportivo de Canelas FC · Canelas, Penafiel</title>
+  <meta name="description" content="Site oficial do Desportivo de Canelas FC: jogos, resultados, classificação, plantel, notícias, bilhetes, loja e sócios.">
+  <meta name="theme-color" content="#062014">
+  <link rel="icon" href="img/favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Barlow:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/main.js" defer></script>
+  <script src="js/home.js" defer></script>
+</head>
+<body data-page="inicio">
+  <a class="skip-link" href="#conteudo">Saltar para o conteúdo</a>
+  <aside id="sidebar"></aside>
+  <div class="main">
+    <header id="topbar"></header>
+    <main id="conteudo">
+      <section class="hero hero--photo" aria-labelledby="hero-title">
+        <div class="hero__bg" aria-hidden="true"></div>
+        <div class="container hero__inner">
+          <div class="hero__copy">
+            <p class="hero__eyebrow">Desportivo de Canelas FC</p>
+            <h1 class="hero__title" id="hero-title"><span>Canelas joga</span> <span class="accent">de amarelo e verde</span></h1>
+            <p class="hero__lead">Somos o clube de Canelas, em Penafiel. Na 1.ª Divisão da AF Porto e na formação, defendemos estas cores com a terra inteira atrás de nós.</p>
+            <div class="hero__actions">
+              <a class="btn btn--primary" href="jogos.html" data-icon-left="calendar">Ver calendário</a>
+              <a class="btn btn--ghost" href="plantel.html" data-icon-left="users">Conhecer o plantel</a>
+            </div>
+            <dl class="hero__form" id="hero-form" aria-label="Resumo da época"></dl>
+          </div>
+          <figure class="hero__team">
+            <img src="img/plantel-equipa.jpg" alt="Fotografia de grupo do plantel sénior do Desportivo de Canelas FC, de equipamento amarelo e verde, no relvado" width="1094" height="730">
+            <figcaption><span class="hero__team-tag"><img src="img/emblema-badge.png" alt="" width="28" height="28"> O nosso plantel</span><small class="hero__credit">Fotografias: Rita Silva e Novum Canal</small></figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <div class="container" style="padding-bottom: var(--section-gap)">
+        <div class="dash dash--home-top">
+          <section class="panel" aria-labelledby="h-next">
+            <div class="panel__head">
+              <h2 class="panel__title" id="h-next" data-icon="calendar">Próximo jogo</h2>
+              <a class="link-more" href="jogos.html" data-arrow>Ver todos</a>
+            </div>
+            <div id="next-match"><div class="skeleton"></div></div>
+            <div class="match__foot">
+              <span class="match__venue" id="next-venue"></span>
+              <a class="btn btn--soft btn--sm" href="jogos.html" data-icon-left="calendar">Ver calendário</a>
+            </div>
+          </section>
+
+          <section class="panel" aria-labelledby="h-table">
+            <div class="panel__head">
+              <h2 class="panel__title" id="h-table" data-icon="trophy">Classificação</h2>
+              <a class="link-more" href="classificacao.html" data-arrow>Ver toda</a>
+            </div>
+            <div id="mini-table"><div class="skeleton"></div></div>
+          </section>
+
+          <section class="panel" aria-labelledby="h-results">
+            <div class="panel__head">
+              <h2 class="panel__title" id="h-results" data-icon="chart">Últimos resultados</h2>
+              <a class="link-more" href="jogos.html?ver=resultados" data-arrow>Ver todos</a>
+            </div>
+            <ul class="results" id="last-results"><li class="skeleton"></li></ul>
+          </section>
+        </div>
+
+        <div class="dash dash--home-mid">
+          <section class="panel panel--bare span-2" aria-labelledby="h-news">
+            <div class="panel__head">
+              <h2 class="panel__title" id="h-news" data-icon="news">Notícias</h2>
+              <a class="link-more" href="noticias.html" data-arrow>Ver todas</a>
+            </div>
+            <div class="news-grid" id="home-news"><div class="skeleton"></div><div class="skeleton"></div><div class="skeleton"></div></div>
+          </section>
+
+          <section class="panel panel--bare" aria-labelledby="h-squad">
+            <div class="panel__head">
+              <h2 class="panel__title" id="h-squad" data-icon="users">Plantel em destaque</h2>
+              <a class="link-more" href="plantel.html" data-arrow>Ver plantel</a>
+            </div>
+            <div class="carousel" id="squad-carousel">
+              <button class="carousel__btn carousel__btn--prev" type="button" aria-label="Jogadores anteriores" data-icon="left"></button>
+              <div class="carousel__track" id="squad-track" tabindex="0" aria-label="Jogadores em destaque"></div>
+              <button class="carousel__btn carousel__btn--next" type="button" aria-label="Jogadores seguintes" data-icon="right"></button>
+            </div>
+          </section>
+        </div>
+
+        <div class="dash dash--home-shop">
+          <section class="panel panel--fill" aria-labelledby="h-tickets">
+            <div class="panel__head">
+              <h2 class="panel__title" id="h-tickets" data-icon="ticket">Bilhetes</h2>
+              <a class="link-more" href="bilhetes.html" data-arrow>Todos os jogos</a>
+            </div>
+            <div class="ticket-card" id="home-tickets"><div class="skeleton"></div></div>
+          </section>
+
+          <section class="panel span-2" aria-labelledby="h-shop">
+            <div class="panel__head">
+              <h2 class="panel__title" id="h-shop" data-icon="cart">Loja do clube</h2>
+              <a class="link-more" href="loja.html" data-arrow>Ver loja</a>
+            </div>
+            <div class="products products--row" id="home-shop"><div class="skeleton"></div><div class="skeleton"></div><div class="skeleton"></div></div>
+          </section>
+        </div>
+
+        <section class="panel community" aria-labelledby="h-community">
+          <div class="community__text">
+            <h2 id="h-community" data-icon="users">A nossa comunidade</h2>
+            <p>Segue o Canelas no Facebook e no Instagram: golos, fotos dos jogos e tudo o que se passa no clube.</p>
+          </div>
+          <div class="social-tiles" id="social-tiles"></div>
+          <span class="community__divider" aria-hidden="true"></span>
+          <div class="community__venue">
+            <img src="img/estadio.svg" alt="">
+            <div><strong>Campo do Desportivo de Canelas</strong><span>Canelas, Penafiel</span></div>
+            <a class="btn btn--ghost btn--sm" id="directions-btn" href="contactos.html" target="_blank" rel="noopener" data-icon-left="pin">Ver direções</a>
+          </div>
+        </section>
+      </div>
+    </main>
+    <footer id="footer"></footer>
+  </div>
+</body>
+</html>

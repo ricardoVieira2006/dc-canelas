@@ -1,0 +1,82 @@
+[
+  {
+    "id": "camisola-principal",
+    "nome": "Camisola principal 2026/27",
+    "categoria": "Equipamentos",
+    "preco": 35.0,
+    "imagem": "img/loja/camisola-principal.svg",
+    "tamanhos": [
+      "8A",
+      "10A",
+      "12A",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "etiqueta": "Novo",
+    "destaque": true
+  },
+  {
+    "id": "camisola-alternativa",
+    "nome": "Camisola alternativa 2026/27",
+    "categoria": "Equipamentos",
+    "preco": 35.0,
+    "imagem": "img/loja/camisola-alternativa.svg",
+    "tamanhos": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "etiqueta": "Novo",
+    "destaque": true
+  },
+  {
+    "id": "cachecol",
+    "nome": "Cachecol amarelo e verde",
+    "categoria": "Acessórios",
+    "preco": 10.0,
+    "imagem": "img/loja/cachecol.svg",
+    "destaque": true
+  },
+  {
+    "id": "bone",
+    "nome": "Boné do clube",
+    "categoria": "Acessórios",
+    "preco": 12.0,
+    "imagem": "img/loja/bone.svg"
+  },
+  {
+    "id": "caneca",
+    "nome": "Caneca DCFC",
+    "categoria": "Casa",
+    "preco": 7.5,
+    "imagem": "img/loja/caneca.svg"
+  },
+  {
+    "id": "bola",
+    "nome": "Bola de treino",
+    "categoria": "Treino",
+    "preco": 20.0,
+    "precoAntigo": 25.0,
+    "imagem": "img/loja/bola.svg",
+    "etiqueta": "Promoção"
+  },
+  {
+    "id": "kit-treino",
+    "nome": "Kit de treino da formação",
+    "categoria": "Treino",
+    "preco": 25.0,
+    "imagem": "img/loja/kit-treino.svg",
+    "tamanhos": [
+      "10A",
+      "12A",
+      "14A",
+      "S",
+      "M"
+    ]
+  }
+]

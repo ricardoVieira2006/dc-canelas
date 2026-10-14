@@ -1,0 +1,106 @@
+{
+  "nome": "Desportivo de Canelas FC",
+  "local": "Canelas · Penafiel",
+  "estadio": "Campo do Desportivo de Canelas",
+  "morada": "Canelas, Penafiel",
+  "email": "",
+  "telefone": "917 364 597",
+  "horario": "Em dias de jogo, a partir de uma hora antes do início",
+  "mapsQuery": "Desportivo de Canelas Futebol Clube, Penafiel",
+  "redes": {
+    "facebook": "https://www.facebook.com/desportivodecanelasfutebolclube/",
+    "instagram": "https://www.instagram.com/d.canelasfc/",
+    "youtube": "",
+    "x": ""
+  },
+  "bilhetes": [
+    {
+      "tipo": "geral",
+      "nome": "Geral",
+      "preco": 5
+    },
+    {
+      "tipo": "socio",
+      "nome": "Sócio",
+      "preco": 0
+    },
+    {
+      "tipo": "jovem",
+      "nome": "Até aos 17 anos",
+      "preco": 2
+    }
+  ],
+  "quotas": [
+    {
+      "id": "jovem",
+      "nome": "Sócio Jovem",
+      "preco": 2.5,
+      "periodo": "mês",
+      "descricao": "Até aos 17 anos",
+      "vantagens": [
+        "Entrada livre nos jogos em casa",
+        "Cartão de sócio",
+        "Desconto de 10% na loja"
+      ]
+    },
+    {
+      "id": "adulto",
+      "nome": "Sócio Adulto",
+      "preco": 5,
+      "periodo": "mês",
+      "descricao": "A partir dos 18 anos",
+      "vantagens": [
+        "Entrada livre nos jogos em casa",
+        "Direito de voto na assembleia geral",
+        "Desconto de 10% na loja",
+        "Cachecol amarelo e verde na adesão"
+      ],
+      "destaque": true
+    },
+    {
+      "id": "familia",
+      "nome": "Sócio Família",
+      "preco": 10,
+      "periodo": "mês",
+      "descricao": "Até 4 pessoas do mesmo agregado",
+      "vantagens": [
+        "Entrada livre para toda a família",
+        "Um cartão por pessoa",
+        "Desconto de 15% na loja",
+        "Prioridade em eventos do clube"
+      ]
+    }
+  ],
+  "direcao": [
+    {
+      "nome": "Nome a indicar",
+      "cargo": "Presidente"
+    },
+    {
+      "nome": "Nome a indicar",
+      "cargo": "Vice-presidente"
+    },
+    {
+      "nome": "Nome a indicar",
+      "cargo": "Tesoureiro"
+    },
+    {
+      "nome": "Nome a indicar",
+      "cargo": "Coordenador da formação"
+    }
+  ],
+  "escaloes": [
+    {
+      "nome": "Seniores",
+      "idades": "1.ª Divisão AF Porto"
+    },
+    {
+      "nome": "Juniores A (Sub-19)",
+      "idades": "17–18 anos"
+    },
+    {
+      "nome": "Juniores C (Sub-15)",
+      "idades": "13–14 anos"
+    }
+  ]
+}

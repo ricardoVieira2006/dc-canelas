@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="pt-PT">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>O Clube · Desportivo de Canelas FC</title>
+  <meta name="description" content="Conhece o Desportivo de Canelas FC: identidade, valores, formação, campo e direção.">
+  <meta name="theme-color" content="#062014">
+  <link rel="icon" href="img/favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Barlow:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/main.js" defer></script>
+  <script src="js/clube.js" defer></script>
+</head>
+<body data-page="clube">
+  <a class="skip-link" href="#conteudo">Saltar para o conteúdo</a>
+  <aside id="sidebar"></aside>
+  <div class="main">
+    <header id="topbar"></header>
+    <main id="conteudo">
+    <section class="page-hero">
+      <div class="container">
+        <nav class="crumbs" aria-label="Localização"><a href="index.html">Início</a><span aria-hidden="true">/</span><span>Clube</span></nav>
+        <h1>O Clube</h1>
+        <p>O Desportivo de Canelas Futebol Clube é o clube da freguesia de Canelas, no concelho de Penafiel.</p>
+      </div>
+    </section>
+      <div class="container page-body">
+        <div class="split">
+          <div class="prose">
+            <h2>Amarelo e verde</h2>
+            <p>O amarelo e o verde são a nossa marca. Vestimo-los em casa, no nosso campo, e em cada terreno da 1.ª Divisão da AF Porto, onde a equipa sénior disputa a Série 2.</p>
+            <p>Um clube de terra vive das pessoas: jogadores, treinadores, dirigentes, sócios, famílias e vizinhos que aparecem ao domingo. É para eles que o Canelas existe.</p>
+            <h3>Formação</h3>
+            <p>Além dos seniores, o clube tem equipas de Juniores A (Sub-19) e Juniores C (Sub-15). Treinamos para competir, mas sobretudo para crescer: respeito pelo adversário, compromisso com a equipa e gosto pelo jogo.</p>
+            <p><a class="link-more" href="contactos.html?assunto=formacao" data-arrow>Marcar um treino de experiência</a></p>
+          </div>
+          <div class="panel" style="padding:0;overflow:hidden">
+            <img src="img/campo.svg" alt="Desenho do relvado do Desportivo de Canelas com as linhas a amarelo" style="width:100%;aspect-ratio:16/9;object-fit:cover">
+            <div style="padding:18px 20px 20px">
+              <h3 style="font-size:1.15rem;text-transform:uppercase;margin-bottom:8px">O nosso campo</h3>
+              <p style="color:var(--text-muted);font-size:var(--fs-sm)">Campo do Desportivo de Canelas, em Canelas, Penafiel. É aqui que jogamos em casa.</p>
+              <a class="btn btn--soft btn--sm" id="directions-btn" href="contactos.html" target="_blank" rel="noopener" data-icon-left="pin">Ver direções</a>
+            </div>
+          </div>
+        </div>
+
+        <section class="section" aria-labelledby="h-values">
+          <div class="panel__head"><h2 class="panel__title" id="h-values" data-icon="heart">Valores</h2></div>
+          <div class="grid-3">
+            <div class="feature"><span data-icon="users"></span><h3>Terra</h3><p>Representamos Canelas. Cada jogo é da freguesia inteira.</p></div>
+            <div class="feature"><span data-icon="ball"></span><h3>Formação</h3><p>Dos Sub-15 aos seniores, com um caminho claro para quem quer jogar.</p></div>
+            <div class="feature"><span data-icon="star"></span><h3>Garra</h3><p>Lutar por cada bola, com respeito por quem está do outro lado.</p></div>
+          </div>
+        </section>
+
+        <section class="section" aria-labelledby="h-levels">
+          <div class="panel__head"><h2 class="panel__title" id="h-levels" data-icon="calendar">Equipas</h2></div>
+          <div class="levels" id="levels"></div>
+        </section>
+
+        <section class="section" aria-labelledby="h-board">
+          <div class="panel__head"><h2 class="panel__title" id="h-board" data-icon="shield">Direção</h2></div>
+          <div class="levels" id="board"></div>
+        </section>
+      </div>
+    </main>
+    <footer id="footer"></footer>
+  </div>
+</body>
+</html>

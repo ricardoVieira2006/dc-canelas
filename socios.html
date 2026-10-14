@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="pt-PT">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sócios · Desportivo de Canelas FC</title>
+  <meta name="description" content="Torna-te sócio do Desportivo de Canelas FC e consulta a tua quota na Zona do Sócio.">
+  <meta name="theme-color" content="#062014">
+  <link rel="icon" href="img/favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Barlow:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/main.js" defer></script>
+  <script src="js/socios.js" defer></script>
+</head>
+<body data-page="socios">
+  <a class="skip-link" href="#conteudo">Saltar para o conteúdo</a>
+  <aside id="sidebar"></aside>
+  <div class="main">
+    <header id="topbar"></header>
+    <main id="conteudo">
+    <section class="page-hero">
+      <div class="container">
+        <nav class="crumbs" aria-label="Localização"><a href="index.html">Início</a><span aria-hidden="true">/</span><span>Sócios</span></nav>
+        <h1>Sócios</h1>
+        <p>Ser sócio é fazer parte do clube: entrada livre nos jogos em casa, descontos na loja e voz nas decisões.</p>
+      </div>
+    </section>
+      <div class="container page-body">
+        <section aria-labelledby="h-plans">
+          <div class="panel__head"><h2 class="panel__title" id="h-plans" data-icon="user">Quotas</h2></div>
+          <div class="plans" id="plans"><div class="skeleton"></div><div class="skeleton"></div><div class="skeleton"></div></div>
+        </section>
+
+        <div class="section split">
+          <section class="panel" id="adesao" aria-labelledby="h-join">
+            <div class="panel__head"><h2 class="panel__title" id="h-join" data-icon="plus">Tornar-me sócio</h2></div>
+            <form class="form" id="join-form">
+              <div class="field"><label for="s-quota">Quota</label><select class="select" id="s-quota" name="quota" required style="height:40px"></select></div>
+              <div class="field"><label for="s-nome">Nome completo</label><input class="input" id="s-nome" name="nome" autocomplete="name" required></div>
+              <div class="form-row">
+                <div class="field"><label for="s-nasc">Data de nascimento</label><input class="input" id="s-nasc" name="nascimento" type="date" required></div>
+                <div class="field"><label for="s-tel">Telemóvel</label><input class="input" id="s-tel" name="telefone" type="tel" autocomplete="tel" required pattern="[+0-9 ]{9,16}" data-pattern-msg="Escreve só números, por exemplo 912 345 678."></div>
+              </div>
+              <div class="field"><label for="s-email">Email</label><input class="input" id="s-email" name="email" type="email" autocomplete="email" required></div>
+              <div class="field"><label for="s-morada">Morada</label><input class="input" id="s-morada" name="morada" autocomplete="street-address" required></div>
+              <label class="check"><input type="checkbox" name="consentimento" value="sim" required> Autorizo o Desportivo de Canelas FC a guardar estes dados para gerir a minha inscrição de sócio.</label>
+              <input class="hp" type="text" name="website" tabindex="-1" autocomplete="off" aria-hidden="true">
+              <button class="btn btn--primary" type="submit" data-icon-left="check">Enviar inscrição</button>
+              <div class="form-status" role="status" aria-live="polite"></div>
+            </form>
+          </section>
+
+          <section class="panel" id="zona" aria-labelledby="h-zone">
+            <div class="panel__head"><h2 class="panel__title" id="h-zone" data-icon="shield">Zona do sócio</h2></div>
+            <p style="color:var(--text-muted);font-size:var(--fs-sm)">Consulta o estado da tua quota com o número de sócio e o email com que te inscreveste.</p>
+            <form class="form" id="zone-form">
+              <div class="field"><label for="z-num">N.º de sócio</label><input class="input" id="z-num" name="numero" inputmode="numeric" pattern="[0-9]{1,6}" data-pattern-msg="Escreve só o número de sócio." required></div>
+              <div class="field"><label for="z-email">Email</label><input class="input" id="z-email" name="email" type="email" autocomplete="email" required></div>
+              <button class="btn btn--soft" type="submit" data-icon-left="search">Consultar quota</button>
+              <div class="form-status" role="status" aria-live="polite"></div>
+            </form>
+            <div id="zone-result"></div>
+          </section>
+        </div>
+      </div>
+    </main>
+    <footer id="footer"></footer>
+  </div>
+</body>
+</html>

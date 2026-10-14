@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="pt-PT">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Notícias · Desportivo de Canelas FC</title>
+  <meta name="description" content="Notícias do Desportivo de Canelas FC: seniores, formação, clube e sócios.">
+  <meta name="theme-color" content="#062014">
+  <link rel="icon" href="img/favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Barlow:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/main.js" defer></script>
+  <script src="js/noticias.js" defer></script>
+</head>
+<body data-page="noticias">
+  <a class="skip-link" href="#conteudo">Saltar para o conteúdo</a>
+  <aside id="sidebar"></aside>
+  <div class="main">
+    <header id="topbar"></header>
+    <main id="conteudo">
+    <section class="page-hero">
+      <div class="container">
+        <nav class="crumbs" aria-label="Localização"><a href="index.html">Início</a><span aria-hidden="true">/</span><span>Notícias</span></nav>
+        <h1>Notícias</h1>
+        <p>Tudo o que acontece no clube: seniores, formação, sócios e o nosso campo.</p>
+      </div>
+    </section>
+      <div class="container page-body">
+        <div class="toolbar">
+          <div class="chips" id="news-filters" role="group" aria-label="Filtrar por categoria"></div>
+          <span class="toolbar__spacer"></span>
+          <label class="sr-only" for="news-search">Pesquisar notícias</label>
+          <input class="input" id="news-search" type="search" placeholder="Pesquisar notícias" style="max-width:260px;min-height:40px">
+        </div>
+        <div id="news-feature"></div>
+        <div class="news-list" id="news-list"><div class="skeleton"></div><div class="skeleton"></div><div class="skeleton"></div></div>
+      </div>
+    </main>
+    <footer id="footer"></footer>
+  </div>
+</body>
+</html>

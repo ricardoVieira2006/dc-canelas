@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="pt-PT">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contactos · Desportivo de Canelas FC</title>
+  <meta name="description" content="Contactos, morada e mapa do Desportivo de Canelas FC, Canelas, Penafiel.">
+  <meta name="theme-color" content="#062014">
+  <link rel="icon" href="img/favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Barlow:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/main.js" defer></script>
+  <script src="js/contactos.js" defer></script>
+</head>
+<body data-page="contactos">
+  <a class="skip-link" href="#conteudo">Saltar para o conteúdo</a>
+  <aside id="sidebar"></aside>
+  <div class="main">
+    <header id="topbar"></header>
+    <main id="conteudo">
+    <section class="page-hero">
+      <div class="container">
+        <nav class="crumbs" aria-label="Localização"><a href="index.html">Início</a><span aria-hidden="true">/</span><span>Contactos</span></nav>
+        <h1>Contactos</h1>
+        <p>Fala connosco: inscrições na formação, patrocínios, sócios ou qualquer outra questão.</p>
+      </div>
+    </section>
+      <div class="container page-body">
+        <div class="split">
+          <section class="panel" aria-labelledby="h-form">
+            <div class="panel__head"><h2 class="panel__title" id="h-form" data-icon="mail">Enviar mensagem</h2></div>
+            <form class="form" id="contact-form">
+              <div class="form-row">
+                <div class="field"><label for="c-nome">Nome</label><input class="input" id="c-nome" name="nome" autocomplete="name" required></div>
+                <div class="field"><label for="c-email">Email</label><input class="input" id="c-email" name="email" type="email" autocomplete="email" required></div>
+              </div>
+              <div class="field"><label for="c-assunto">Assunto</label>
+                <select class="select" id="c-assunto" name="assunto" required style="height:40px">
+                  <option value="geral">Questão geral</option>
+                  <option value="formacao">Formação / treino de experiência</option>
+                  <option value="socios">Sócios</option>
+                  <option value="patrocinios">Patrocínios</option>
+                  <option value="loja">Loja</option>
+                  <option value="imprensa">Imprensa</option>
+                </select>
+              </div>
+              <div class="field"><label for="c-msg">Mensagem</label><textarea class="textarea" id="c-msg" name="mensagem" required minlength="10"></textarea></div>
+              <label class="check"><input type="checkbox" name="consentimento" value="sim" required> Autorizo o clube a usar estes dados para responder à minha mensagem.</label>
+              <input class="hp" type="text" name="website" tabindex="-1" autocomplete="off" aria-hidden="true">
+              <button class="btn btn--primary" type="submit" data-icon-left="mail">Enviar mensagem</button>
+              <div class="form-status" role="status" aria-live="polite"></div>
+            </form>
+          </section>
+          <section aria-labelledby="h-info">
+            <div class="panel">
+              <div class="panel__head"><h2 class="panel__title" id="h-info" data-icon="pin">Onde estamos</h2></div>
+              <ul class="contact-list" id="contact-list"></ul>
+            </div>
+            <iframe class="map" id="map" title="Mapa do Campo do Desportivo de Canelas" loading="lazy" referrerpolicy="no-referrer-when-downgrade" style="margin-top:var(--gap)"></iframe>
+          </section>
+        </div>
+      </div>
+    </main>
+    <footer id="footer"></footer>
+  </div>
+</body>
+</html>

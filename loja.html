@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="pt-PT">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Loja · Desportivo de Canelas FC</title>
+  <meta name="description" content="Loja oficial do Desportivo de Canelas FC: equipamentos, acessórios e artigos do clube.">
+  <meta name="theme-color" content="#062014">
+  <link rel="icon" href="img/favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Barlow:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/main.js" defer></script>
+  <script src="js/loja.js" defer></script>
+</head>
+<body data-page="loja">
+  <a class="skip-link" href="#conteudo">Saltar para o conteúdo</a>
+  <aside id="sidebar"></aside>
+  <div class="main">
+    <header id="topbar"></header>
+    <main id="conteudo">
+    <section class="page-hero">
+      <div class="container">
+        <nav class="crumbs" aria-label="Localização"><a href="index.html">Início</a><span aria-hidden="true">/</span><span>Loja</span></nav>
+        <h1>Loja do clube</h1>
+        <p>Equipamentos, acessórios e recordações. Encomenda aqui e levanta no campo; o pagamento é feito no levantamento.</p>
+      </div>
+    </section>
+      <div class="container page-body">
+        <div class="toolbar">
+          <div class="chips" id="shop-filters" role="group" aria-label="Filtrar por categoria"></div>
+          <span class="toolbar__spacer"></span>
+          <label class="sr-only" for="shop-sort">Ordenar</label>
+          <select class="select" id="shop-sort">
+            <option value="destaque">Em destaque</option>
+            <option value="preco-asc">Preço: mais baixo</option>
+            <option value="preco-desc">Preço: mais alto</option>
+            <option value="nome">Nome</option>
+          </select>
+          <button class="btn btn--soft btn--sm" type="button" data-open-cart data-icon-left="cart">Ver carrinho</button>
+        </div>
+        <div class="products" id="products"><div class="skeleton"></div><div class="skeleton"></div><div class="skeleton"></div></div>
+
+        <section class="section split" id="encomenda" aria-labelledby="h-order">
+          <div class="panel">
+            <div class="panel__head"><h2 class="panel__title" id="h-order" data-icon="cart">Finalizar encomenda</h2></div>
+            <form class="form" id="order-form">
+              <div class="form-row">
+                <div class="field"><label for="o-nome">Nome</label><input class="input" id="o-nome" name="nome" autocomplete="name" required></div>
+                <div class="field"><label for="o-socio">N.º de sócio <span class="hint">(opcional, para desconto)</span></label><input class="input" id="o-socio" name="socio" inputmode="numeric" pattern="[0-9]{1,6}" data-pattern-msg="Escreve só o número de sócio."></div>
+              </div>
+              <div class="form-row">
+                <div class="field"><label for="o-email">Email</label><input class="input" id="o-email" name="email" type="email" autocomplete="email" required></div>
+                <div class="field"><label for="o-tel">Telemóvel</label><input class="input" id="o-tel" name="telefone" type="tel" autocomplete="tel" required pattern="[+0-9 ]{9,16}" data-pattern-msg="Escreve só números, por exemplo 912 345 678."></div>
+              </div>
+              <div class="field"><label for="o-notas">Notas <span class="hint">(opcional)</span></label><textarea class="textarea" id="o-notas" name="notas" style="min-height:90px" placeholder="Por exemplo: nome e número a estampar na camisola"></textarea></div>
+              <input class="hp" type="text" name="website" tabindex="-1" autocomplete="off" aria-hidden="true">
+              <button class="btn btn--primary" type="submit" data-icon-left="check">Enviar encomenda</button>
+              <div class="form-status" role="status" aria-live="polite"></div>
+            </form>
+          </div>
+          <div class="panel">
+            <div class="panel__head"><h2 class="panel__title" data-icon="news">Resumo</h2></div>
+            <div id="order-summary"></div>
+          </div>
+        </section>
+      </div>
+    </main>
+    <footer id="footer"></footer>
+  </div>
+</body>
+</html>

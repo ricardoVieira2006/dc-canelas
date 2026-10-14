@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="pt-PT">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Notícia · Desportivo de Canelas FC</title>
+  <meta name="description" content="Notícia do Desportivo de Canelas FC.">
+  <meta name="theme-color" content="#062014">
+  <link rel="icon" href="img/favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Barlow:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/main.js" defer></script>
+  <script src="js/noticia.js" defer></script>
+</head>
+<body data-page="noticias">
+  <a class="skip-link" href="#conteudo">Saltar para o conteúdo</a>
+  <aside id="sidebar"></aside>
+  <div class="main">
+    <header id="topbar"></header>
+    <main id="conteudo">
+    <section class="page-hero">
+      <div class="container">
+        <nav class="crumbs" aria-label="Localização"><a href="index.html">Início</a><span aria-hidden="true">/</span><a href="noticias.html">Notícias</a></nav>
+        <div class="news-meta" id="article-meta"></div>
+        <h1 id="article-title" style="max-width:24ch;text-transform:none;line-height:1.05">A carregar…</h1>
+        <button class="btn btn--soft btn--sm" type="button" id="share-btn" style="margin-top:14px" data-icon-left="share">Partilhar</button>
+      </div>
+    </section>
+      <div class="container page-body">
+        <div class="article-layout">
+          <article class="article" id="article"><div class="skeleton" style="min-height:320px"></div></article>
+          <aside>
+            <section class="panel" aria-labelledby="h-next">
+              <div class="panel__head"><h2 class="panel__title" id="h-next" data-icon="calendar">Próximo jogo</h2></div>
+              <div id="next-match"></div>
+            </section>
+            <section class="panel" style="margin-top:var(--gap)" aria-labelledby="h-more">
+              <div class="panel__head"><h2 class="panel__title" id="h-more" data-icon="news">Mais notícias</h2></div>
+              <ul id="more-news" style="display:flex;flex-direction:column;gap:14px"></ul>
+            </section>
+          </aside>
+        </div>
+      </div>
+    </main>
+    <footer id="footer"></footer>
+  </div>
+</body>
+</html>

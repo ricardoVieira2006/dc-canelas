@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="pt-PT">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Jogos e resultados · Desportivo de Canelas FC</title>
+  <meta name="description" content="Calendário de jogos e resultados do Desportivo de Canelas FC, seniores e formação.">
+  <meta name="theme-color" content="#062014">
+  <link rel="icon" href="img/favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Barlow:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/main.js" defer></script>
+  <script src="js/jogos.js" defer></script>
+</head>
+<body data-page="jogos">
+  <a class="skip-link" href="#conteudo">Saltar para o conteúdo</a>
+  <aside id="sidebar"></aside>
+  <div class="main">
+    <header id="topbar"></header>
+    <main id="conteudo">
+    <section class="page-hero">
+      <div class="container">
+        <nav class="crumbs" aria-label="Localização"><a href="index.html">Início</a><span aria-hidden="true">/</span><span>Jogos</span></nav>
+        <h1>Jogos</h1>
+        <p>Calendário completo e resultados da época, dos seniores à formação.</p>
+      </div>
+    </section>
+      <div class="container page-body">
+        <div class="split split--aside">
+          <div>
+            <div class="toolbar">
+              <div class="chips" role="group" aria-label="Mostrar">
+                <button class="chip" type="button" data-view="todos" aria-pressed="true">Todos</button>
+                <button class="chip" type="button" data-view="proximos" aria-pressed="false">Próximos</button>
+                <button class="chip" type="button" data-view="resultados" aria-pressed="false">Resultados</button>
+              </div>
+              <span class="toolbar__spacer"></span>
+              <button class="btn btn--soft btn--sm" type="button" id="ics-all" data-icon-left="calendar">Adicionar ao calendário</button>
+              <label class="sr-only" for="f-escalao">Escalão</label>
+              <select class="select" id="f-escalao"><option value="">Todos os escalões</option></select>
+              <label class="sr-only" for="f-comp">Competição</label>
+              <select class="select" id="f-comp"><option value="">Todas as competições</option></select>
+            </div>
+            <div class="fixtures" id="fixtures"><div class="skeleton"></div><div class="skeleton"></div></div>
+          </div>
+          <aside>
+            <section class="panel" aria-labelledby="h-next">
+              <div class="panel__head"><h2 class="panel__title" id="h-next" data-icon="calendar">Próximo jogo</h2></div>
+              <div id="next-match"><div class="skeleton"></div></div>
+            </section>
+            <section class="panel" style="margin-top:var(--gap)" aria-labelledby="h-season">
+              <div class="panel__head"><h2 class="panel__title" id="h-season" data-icon="chart">Época dos seniores</h2></div>
+              <div class="stats" id="season-stats" style="margin:0"></div>
+              <a class="btn btn--soft btn--block" style="margin-top:14px" href="classificacao.html" data-icon-left="trophy">Ver classificação</a>
+            </section>
+          </aside>
+        </div>
+      </div>
+    </main>
+    <footer id="footer"></footer>
+  </div>
+</body>
+</html>

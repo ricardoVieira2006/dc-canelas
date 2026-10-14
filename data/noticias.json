@@ -1,0 +1,80 @@
+[
+  {
+    "id": "empate-em-ancede",
+    "titulo": "Empate em Ancede mantém o Canelas na frente",
+    "categoria": "Seniores",
+    "data": "2026-10-04",
+    "imagem": "img/noticias/capa-campo.svg",
+    "resumo": "Um ponto no terreno do Ancede (1-1) chega para continuar no topo da Série 2, agora com 7 pontos em três jornadas.",
+    "corpo": [
+      "O Desportivo de Canelas empatou 1-1 em Ancede, na terceira jornada da 1.ª Divisão da AF Porto, Série 2.",
+      "A equipa continua sem perder e lidera a série, a par do Frende, com vantagem na diferença de golos.",
+      "No domingo há jogo em casa, frente ao Rio Mau. Contamos com o apoio de todos na bancada."
+    ]
+  },
+  {
+    "id": "vitoria-frente-ao-croca",
+    "titulo": "Três golos e primeira vitória em casa",
+    "categoria": "Seniores",
+    "data": "2026-09-27",
+    "imagem": "img/noticias/foto-balneario.jpg",
+    "resumo": "O Canelas venceu o Croca por 3-0 na estreia em casa e somou a segunda vitória da época.",
+    "corpo": [
+      "Na primeira jornada em casa, o Desportivo de Canelas venceu o Croca por 3-0.",
+      "Depois do triunfo em Eja na ronda inaugural, a equipa soma seis pontos em dois jogos.",
+      "Obrigado a quem encheu a bancada. Para a semana há deslocação a Ancede."
+    ]
+  },
+  {
+    "id": "arranque-epoca-2026-27",
+    "titulo": "Época 2026/27 arranca com dérbi em Eja",
+    "categoria": "Clube",
+    "data": "2026-09-18",
+    "imagem": "img/noticias/capa-epoca.svg",
+    "resumo": "A 1.ª Divisão da AF Porto começa a 20 de setembro. O Canelas está na Série 2 e estreia-se em Eja, num dérbi do concelho de Penafiel.",
+    "corpo": [
+      "A primeira fase da 1.ª Divisão da AF Porto começa a 20 de setembro de 2026 e termina a 18 de abril de 2027.",
+      "O Desportivo de Canelas está na Série 2, com 14 equipas, e abre a época com um dérbi do concelho de Penafiel, em Eja.",
+      "Consulta o calendário completo na página Jogos e acrescenta os jogos ao teu telemóvel com um toque."
+    ]
+  },
+  {
+    "id": "novos-equipamentos",
+    "titulo": "Amarelo e verde: os equipamentos da nova época",
+    "categoria": "Clube",
+    "data": "2026-09-10",
+    "imagem": "img/noticias/capa-equipamentos.svg",
+    "resumo": "As cores de sempre, num corte novo. Já podes reservar a tua camisola na loja do site.",
+    "corpo": [
+      "O Desportivo de Canelas apresentou os equipamentos para a época 2026/27, com o amarelo e o verde que identificam o clube.",
+      "Há tamanhos para adultos e para a formação. Reserva na loja do site e levanta no campo, em dia de jogo.",
+      "Os sócios com quotas em dia têm 10% de desconto."
+    ]
+  },
+  {
+    "id": "inscricoes-formacao",
+    "titulo": "Inscrições abertas para os Sub-15 e Sub-19",
+    "categoria": "Formação",
+    "data": "2026-09-02",
+    "imagem": "img/noticias/capa-formacao.svg",
+    "resumo": "Queres jogar no Canelas? Marca um treino de experiência gratuito com as equipas de formação.",
+    "corpo": [
+      "Estão abertas as inscrições para as equipas de Juniores C (Sub-15) e Juniores A (Sub-19).",
+      "Os novos atletas podem fazer um treino de experiência gratuito. Contacta o clube pela página Contactos para combinar o dia.",
+      "Mais do que jogadores, formamos pessoas: respeito, compromisso e espírito de equipa."
+    ]
+  },
+  {
+    "id": "campanha-socios",
+    "titulo": "Faz-te sócio e entra grátis nos jogos em casa",
+    "categoria": "Sócios",
+    "data": "2026-08-28",
+    "imagem": "img/noticias/capa-socios.svg",
+    "resumo": "Quotas a partir de 2,50 € por mês, com entrada livre no campo e desconto na loja.",
+    "corpo": [
+      "Arrancou a campanha de sócios para a época 2026/27.",
+      "Há quotas para jovens, adultos e famílias. A inscrição faz-se aqui no site, na página Sócios, ou no campo em dia de jogo.",
+      "Ser sócio é a forma mais direta de ajudar o clube a crescer."
+    ]
+  }
+]

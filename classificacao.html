@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="pt-PT">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Classificação · Desportivo de Canelas FC</title>
+  <meta name="description" content="Classificação da 1.ª Divisão da AF Porto, Série 2, com o Desportivo de Canelas FC.">
+  <meta name="theme-color" content="#062014">
+  <link rel="icon" href="img/favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Barlow:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/main.js" defer></script>
+  <script src="js/classificacao.js" defer></script>
+</head>
+<body data-page="classificacao">
+  <a class="skip-link" href="#conteudo">Saltar para o conteúdo</a>
+  <aside id="sidebar"></aside>
+  <div class="main">
+    <header id="topbar"></header>
+    <main id="conteudo">
+    <section class="page-hero">
+      <div class="container">
+        <nav class="crumbs" aria-label="Localização"><a href="index.html">Início</a><span aria-hidden="true">/</span><span>Classificação</span></nav>
+        <h1>Classificação</h1>
+        <p>1.ª Divisão AF Porto · Série 2 · Época 2026/27</p>
+      </div>
+    </section>
+      <div class="container page-body">
+        <div class="split split--aside">
+          <section class="panel" aria-labelledby="h-table">
+            <div class="panel__head">
+              <h2 class="panel__title" id="h-table" data-icon="trophy">Tabela</h2>
+              <span class="tag" id="table-updated"></span>
+            </div>
+            <div id="full-table"><div class="skeleton" style="min-height:400px"></div></div>
+            <div class="legend">
+              <span><i style="background:var(--win)"></i>Subida de divisão</span>
+              <span><i style="background:var(--loss)"></i>Descida de divisão</span>
+              <span>V vitória · E empate · D derrota · GM golos marcados · GS golos sofridos</span>
+            </div>
+          </section>
+          <aside>
+            <section class="panel" aria-labelledby="h-club">
+              <div class="panel__head"><h2 class="panel__title" id="h-club" data-icon="shield">O Canelas</h2></div>
+              <div class="stats" id="club-stats" style="margin:0"></div>
+              <dl class="dl" id="club-dl" style="margin-top:16px"></dl>
+            </section>
+            <section class="panel" style="margin-top:var(--gap)" aria-labelledby="h-results">
+              <div class="panel__head"><h2 class="panel__title" id="h-results" data-icon="chart">Últimos resultados</h2></div>
+              <ul class="results" id="last-results"></ul>
+            </section>
+          </aside>
+        </div>
+      </div>
+    </main>
+    <footer id="footer"></footer>
+  </div>
+</body>
+</html>

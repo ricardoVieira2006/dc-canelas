@@ -1,0 +1,196 @@
+{
+  "competicao": "1.ª Divisão AF Porto · Série 2",
+  "epoca": "2026/27",
+  "atualizado": "2026-10-05",
+  "regras": {
+    "vitoria": 3,
+    "empate": 1,
+    "derrota": 0,
+    "subida": 2,
+    "descida": 2
+  },
+  "equipas": [
+    {
+      "id": "canelas",
+      "v": 2,
+      "e": 1,
+      "d": 0,
+      "gm": 6,
+      "gs": 2,
+      "forma": [
+        "E",
+        "V",
+        "V"
+      ]
+    },
+    {
+      "id": "frende",
+      "v": 2,
+      "e": 1,
+      "d": 0,
+      "gm": 6,
+      "gs": 4,
+      "forma": [
+        "E",
+        "V",
+        "V"
+      ]
+    },
+    {
+      "id": "croca",
+      "v": 2,
+      "e": 0,
+      "d": 1,
+      "gm": 4,
+      "gs": 3,
+      "forma": [
+        "V",
+        "D",
+        "V"
+      ]
+    },
+    {
+      "id": "riomau",
+      "v": 2,
+      "e": 0,
+      "d": 1,
+      "gm": 4,
+      "gs": 3,
+      "forma": [
+        "V",
+        "V",
+        "D"
+      ]
+    },
+    {
+      "id": "ancede",
+      "v": 1,
+      "e": 2,
+      "d": 0,
+      "gm": 3,
+      "gs": 1,
+      "forma": [
+        "E",
+        "E",
+        "V"
+      ]
+    },
+    {
+      "id": "lagares",
+      "v": 1,
+      "e": 2,
+      "d": 0,
+      "gm": 2,
+      "gs": 1,
+      "forma": [
+        "E",
+        "E",
+        "V"
+      ]
+    },
+    {
+      "id": "gaiolo",
+      "v": 1,
+      "e": 1,
+      "d": 1,
+      "gm": 2,
+      "gs": 1,
+      "forma": [
+        "V",
+        "D",
+        "E"
+      ]
+    },
+    {
+      "id": "vilaboa",
+      "v": 1,
+      "e": 1,
+      "d": 1,
+      "gm": 4,
+      "gs": 4,
+      "forma": [
+        "E",
+        "D",
+        "V"
+      ]
+    },
+    {
+      "id": "abragonense",
+      "v": 1,
+      "e": 1,
+      "d": 1,
+      "gm": 2,
+      "gs": 2,
+      "forma": [
+        "D",
+        "V",
+        "E"
+      ]
+    },
+    {
+      "id": "tuias",
+      "v": 1,
+      "e": 0,
+      "d": 2,
+      "gm": 2,
+      "gs": 3,
+      "forma": [
+        "D",
+        "V",
+        "D"
+      ]
+    },
+    {
+      "id": "penhalonga",
+      "v": 1,
+      "e": 0,
+      "d": 2,
+      "gm": 3,
+      "gs": 5,
+      "forma": [
+        "V",
+        "D",
+        "D"
+      ]
+    },
+    {
+      "id": "eja",
+      "v": 0,
+      "e": 1,
+      "d": 2,
+      "gm": 5,
+      "gs": 7,
+      "forma": [
+        "D",
+        "E",
+        "D"
+      ]
+    },
+    {
+      "id": "gestaco",
+      "v": 0,
+      "e": 1,
+      "d": 2,
+      "gm": 3,
+      "gs": 6,
+      "forma": [
+        "D",
+        "E",
+        "D"
+      ]
+    },
+    {
+      "id": "pacosousa",
+      "v": 0,
+      "e": 1,
+      "d": 2,
+      "gm": 1,
+      "gs": 5,
+      "forma": [
+        "E",
+        "D",
+        "D"
+      ]
+    }
+  ]
+}
